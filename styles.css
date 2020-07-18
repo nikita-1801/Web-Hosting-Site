@@ -1,0 +1,158 @@
+/* Tag Selectors */
+body{
+  font-family: Verdana, Geneva, sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+h1{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 3em;
+  line-height: 1.5;
+  font-weight: 700;
+  color: white;
+}
+
+h2{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+h3{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/* Containers */
+.container-fluid{
+  padding: 7% 11%;
+}
+
+
+/* Download Buttons */
+.download-btn{
+  margin: 5% 3% 3% 0;
+  border-radius: 8px;
+}
+
+/* Navigation Bar */
+.navbar{
+  padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-size: 2.5rem;
+  font-family: 'Fredoka One', cursive;
+  font-weight: 500;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+/* Title section */
+#title .container-fluid{
+  background-color: #1b262c;
+  color: #fff;
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.title-image{
+  width: 120%;
+  margin: 10% 0 ;
+}
+
+@media (max-width:1033px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    width: 100%;
+    margin: 20px 0;
+  }
+}
+/* Features Section */
+.features{
+  padding: 3%;
+}
+
+.fa-4x{
+  color: #0f4c75;
+  margin: 1rem;;
+}
+
+.fa-4x:hover{
+  color: #3282b8;
+}
+
+/* Press section */
+#press{
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 17%;
+  margin: 40px 20px;
+}
+
+@media (max-width: 623px) {
+  .press-logo{
+    width: 30%;
+  }
+}
+/* Pricing section */
+#pricing{
+  background-color: #bbe1fa;
+  padding: 100px;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+.card-top{
+  background-color: #1b262c;
+  color: #fff;
+}
+/*Call to Action*/
+#cta{
+  background-color: #0f4c75;
+}
+/* Footer */
+#footer{
+  padding: 7% 11% 4%;
+}
+.footer-icon{
+  margin: 50px 10px 30px;
+}
+
+.tweet:hover{
+  color: #2bb2bb ;
+}
+
+.fb:hover{
+  color: #436f8a;
+}
+
+.insta:hover{
+  color: #e7305b;
+}
+
+.mail:hover{
+  color: #ea907a;
+}
